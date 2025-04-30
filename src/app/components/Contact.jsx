@@ -88,7 +88,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="John Doe"
                     />
                   </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -125,7 +125,7 @@ const Contact = () => {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="Acme Inc."
                     />
                   </div>
@@ -144,7 +144,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       rows={4}
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="How can we help you?"
                     ></textarea>
                   </div>
