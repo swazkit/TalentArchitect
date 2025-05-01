@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="md:w-1/2 mt-12 md:mt-0">
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-20 transform -translate-x-4 translate-y-4"></div>
-              <img src="/api/placeholder/600/500" alt="HR Consultancy" className="relative z-10 rounded-2xl shadow-xl" />
+              <img src="https://plus.unsplash.com/premium_photo-1661281350976-59b9514e5364?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="HR Consultancy" className="relative z-10 rounded-2xl shadow-xl" />
             </div>
           </div>
         </div>

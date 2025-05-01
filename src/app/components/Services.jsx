@@ -62,7 +62,6 @@ const Services = () => {
                 <h3 className="text-xl font-semibold mb-3 text-center text-gray-900">{service.title}</h3>
                 <p className="text-gray-600 text-center">{service.description}</p>
                 <div className="card-actions justify-center mt-6">
-                  <button className="btn btn-outline btn-primary btn-sm">Learn More</button>
                 </div>
               </div>
             </div>
