@@ -52,9 +52,9 @@ const About = () => {
               </div>
             </div>
             
-            <button className="btn btn-outline btn-primary mt-8">
-              Learn More About Us
-            </button>
+            <a className="btn btn-outline btn-primary mt-8" href="#contact">
+              Schedule a consultation now
+            </a>
           </div>
         </div>
       </div>

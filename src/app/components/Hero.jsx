@@ -19,13 +19,15 @@ const Hero = () => {
               Leading HR Consultancy Services Tailored for Modern Businesses.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn btn-primary btn-lg">
+              <a href="#contact">
+              <button className="btn btn-primary btn-lg" href="#contact">
                 Get a Free Consultation
                 <ChevronRight className="ml-2 h-5 w-5" />
               </button>
-              <button className="btn btn-outline btn-lg">
+              </a>
+              <a className="btn btn-outline btn-lg" href="#services">
                 Our Services
-              </button>
+              </a>
             </div>
           </div>
           <div className="md:w-1/2 mt-12 md:mt-0">
@@ -38,11 +40,11 @@ const Hero = () => {
 
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="bg-white p-6 rounded-xl shadow-md">
-            <div className="text-4xl font-bold text-blue-600 mb-2">250+</div>
+            <div className="text-4xl font-bold text-blue-600 mb-2">90+</div>
             <div className="text-gray-600">Clients Served</div>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-md">
-            <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
+            <div className="text-4xl font-bold text-blue-600 mb-2">5+</div>
             <div className="text-gray-600">Years Experience</div>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-md">

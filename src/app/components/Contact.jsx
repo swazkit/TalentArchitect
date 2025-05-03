@@ -47,7 +47,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-blue-600 mr-3" />
                   <div>
                     <p className="font-medium text-gray-900">Email</p>
-                    <a href="mailto:contact@hrconsultancy.com" className="text-blue-600 hover:underline">contact@hrconsultancy.com</a>
+                    <a href="mailto:contact@hrconsultancy.com" className="text-blue-600 hover:underline">contact@talentarchitect.in</a>
                   </div>
                 </div>
                 
@@ -64,9 +64,8 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-gray-900">Address</p>
                     <address className="not-italic text-gray-600">
-                      123 Business Park,<br />
-                      Tech Hub, Innovation District,<br />
-                      Mumbai, 400001, India
+                      Skyone 5th floor, Kalyani Nagar<br />
+                      Pune, 400001, India
                     </address>
                   </div>
                 </div>
@@ -88,7 +87,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
+                      className="text-gray-900 pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="John Doe"
                     />
                   </div>
@@ -107,7 +106,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
+                      className="text-gray-900 pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -125,7 +124,7 @@ const Contact = () => {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
+                      className="text-gray-900 pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="Acme Inc."
                     />
                   </div>
@@ -144,7 +143,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       rows={4}
-                      className="pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
+                      className="text-gray-900 pl-10 py-3 pr-4 block w-full shadow-sm border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400"
                       placeholder="How can we help you?"
                     ></textarea>
                   </div>
