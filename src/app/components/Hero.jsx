@@ -20,7 +20,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact">
-              <button className="btn btn-primary btn-lg" href="#contact">
+              <button className="btn btn-primary btn-lg w-full flex items-center justify-center" href="#contact">
                 Get a Free Consultation
                 <ChevronRight className="ml-2 h-5 w-5" />
               </button>
